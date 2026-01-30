@@ -1,0 +1,283 @@
+<DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Locação de veículos em Osasco e Região. Carros a partir de R$700 semanais. Entre em contato agora!">
+    <title>Suporte Brasil Locadora - Aluguel de Carros em Osasco</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <span class="logo-text-top">SUPORTE <span class="highlight">BRASIL</span></span>
+                <span class="logo-text-bottom">LOCADORA</span>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#frota" class="nav-link">Frota</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+
+            <button class="mobile-menu-btn" aria-label="Abrir menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">LOCAÇÃO DE VEÍCULOS</div>
+                <h1>EM <span class="highlight-yellow">OSASCO</span> E REGIÃO</h1>
+
+                <div class="price-box">
+                    <span class="price-label">A PARTIR DE</span>
+                    <div class="price-value">R$<span class="big-price">700</span></div>
+                    <span class="price-period">SEMANAIS!</span>
+                </div>
+
+                <a href="https://wa.me/5511992594414?text=Olá, gostaria de saber mais sobre a locação de veículos a partir de R$700."
+                    target="_blank" class="cta-button primary">
+                    <i class="fab fa-whatsapp"></i> FALE CONOSCO NO WHATSAPP
+                </a>
+            </div>
+            <div class="hero-image">
+                <img src="assets/img/onix-white-2019.png" alt="Chevrolet Onix Suporte Brasil" class="hero-car-img">
+            </div>
+        </div>
+        <div class="hero-curve">
+            <svg viewBox="0 0 1440 100" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#f0f2f5"
+                    d="M0,64L80,69.3C160,75,320,85,480,80C640,75,800,53,960,48C1120,43,1280,53,1360,58.7L1440,64L1440,100L1360,100C1280,100,1120,100,960,100C800,100,640,100,480,100C320,100,160,100,80,100L0,100Z">
+                </path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre" class="about">
+        <div class="container about-container">
+            <div class="about-text">
+                <h2>SOBRE A <span class="text-blue">SUPORTE BRASIL LOCADORA</span></h2>
+                <p class="subtitle">Quem somos e onde atuamos</p>
+
+                <p>Suporte Brasil Locadora foi fundada em 2019 em Osasco, possui carros em ótimo estado e revisados</p>
+
+                <ul class="benefits-list">
+                    <li><i class="fas fa-check-circle"></i> Sem burocracia, veículo de garantia e economia.</li>
+                    <li><i class="fas fa-check-circle"></i> Possuímos suporte completo para manutenção e mecânica geral
+                        do veículo.</li>
+                </ul>
+
+                <a href="https://wa.me/5511992594414?text=Olá, gostaria de saber mais sobre a empresa." target="_blank"
+                    class="cta-button secondary">
+                    FALE CONOSCO NO WHATSAPP
+                </a>
+            </div>
+            <div class="about-map">
+                <!-- Embedded Google Map for Osasco -->
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58504.60966442867!2d-46.82869929235076!3d-23.53239855513217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf03d65672808b%3A0x679093db851141df!2sOsasco%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1706325000000!5m2!1spt-BR!2sbr"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fleet Section -->
+    <section id="frota" class="fleet">
+        <div class="container">
+            <div class="section-header">
+                <h2>NOSSA FROTA</h2>
+                <p>Veículos para <strong>todas as necessidades</strong></p>
+
+                <!-- Category Filters -->
+                <div class="fleet-filters">
+                    <button class="filter-btn active" data-filter="hatch">Hatch</button>
+                    <button class="filter-btn" data-filter="sedan">Sedan</button>
+                </div>
+            </div>
+
+            <div class="fleet-grid">
+                <!-- Car Card 1 -->
+                <div class="car-card onix-card" data-category="hatch">
+                    <div class="car-image-container">
+                        <img src="assets/img/onix-white-2019.png" alt="Chevrolet Onix">
+                        <div class="car-badge">APENAS <strong>R$700</strong> SEMANAIS</div>
+                    </div>
+                    <div class="car-info">
+                        <h3>Chevrolet Onix</h3>
+                        <p class="car-desc">Econômico e moderno locação</p>
+                        <a href="https://wa.me/5511992594414?text=Tenho interesse no veículo Chevrolet Onix (R$700)"
+                            target="_blank" class="cta-button small">
+                            RESERVAR AGORA <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Car Card 2 -->
+                <div class="car-card" data-category="hatch">
+                    <div class="car-image-container">
+                        <img src="assets/img/hb20.png" alt="Hyundai HB20">
+                        <div class="car-badge">APENAS <strong>R$700</strong> SEMANAIS</div>
+                    </div>
+                    <div class="car-info">
+                        <h3>Hyundai HB20</h3>
+                        <p class="car-desc">Conforto e design para você</p>
+                        <a href="https://wa.me/5511992594414?text=Tenho interesse no veículo Hyundai HB20 (R$700)"
+                            target="_blank" class="cta-button small">
+                            RESERVAR AGORA <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Car Card 3 -->
+                <div class="car-card" data-category="hatch">
+                    <div class="car-image-container">
+                        <img src="assets/img/gol.png" alt="Volkswagen Gol">
+                        <div class="car-badge">APENAS <strong>R$700</strong> SEMANAIS</div>
+                    </div>
+                    <div class="car-info">
+                        <h3>Volkswagen Gol</h3>
+                        <p class="car-desc">Robustez e agilidade</p>
+                        <a href="https://wa.me/5511992594414?text=Tenho interesse no veículo Volkswagen Gol (R$700)"
+                            target="_blank" class="cta-button small">
+                            RESERVAR AGORA <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Car Card 4 (Sedan) -->
+                <div class="car-card" data-category="sedan" style="display: none;">
+                    <div class="car-image-container">
+                        <img src="assets/img/hb20s.png" alt="Hyundai HB20S">
+                        <div class="car-badge">APENAS <strong>R$800</strong> SEMANAIS</div>
+                    </div>
+                    <div class="car-info">
+                        <h3>Hyundai HB20S</h3>
+                        <p class="car-desc">Modelo 2019 - Conforto extra</p>
+                        <a href="https://wa.me/5511992594414?text=Tenho interesse no veículo Hyundai HB20S 2019 (R$800)"
+                            target="_blank" class="cta-button small">
+                            RESERVAR AGORA <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Car Card 5 (Sedan) -->
+                <div class="car-card" data-category="sedan" style="display: none;">
+                    <div class="car-image-container">
+                        <img src="assets/img/onix-plus.png" alt="Chevrolet Onix Plus">
+                        <div class="car-badge">APENAS <strong>R$800</strong> SEMANAIS</div>
+                    </div>
+                    <div class="car-info">
+                        <h3>Chevrolet Onix Plus</h3>
+                        <p class="car-desc">Modelo 2019 - Espaço e performance</p>
+                        <a href="https://wa.me/5511992594414?text=Tenho interesse no veículo Chevrolet Onix Plus 2019 (R$800)"
+                            target="_blank" class="cta-button small">
+                            RESERVAR AGORA <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fleet-cta">
+                <a href="https://wa.me/5511992594414?text=Gostaria de ver toda a frota disponível." target="_blank"
+                    class="cta-button green-gradient">
+                    <i class="fab fa-whatsapp"></i> FALE CONOSCO NO WHATSAPP
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map/Location Section -->
+    <section id="contato" class="location-section">
+        <div class="container">
+            <h2>ONDE ESTAMOS</h2>
+            <p>Visite nossa unidade ou entre em contato</p>
+            <div class="location-container">
+                <div class="info-card">
+                    <h3>Suporte Brasil Locadora</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Osasco, São Paulo - SP</p>
+                    <p><i class="fas fa-phone"></i> (11) 99259-4414</p>
+                    <p><i class="fas fa-envelope"></i> contato@suportebrasillocadora.com.br</p>
+                    <p>
+                        <i class="fab fa-instagram"></i>
+                        <a href="https://www.instagram.com/suportebrasillocadora?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                            target="_blank">@suportebrasillocadora</a>
+                    </p>
+                    <a href="https://wa.me/5511992594414?text=Olá, quero agendar uma visita."
+                        class="cta-button outline">
+                        <i class="fab fa-whatsapp"></i> INICIAR CONVERSA
+                    </a>
+                </div>
+                <div class="map-full">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58504.60966442867!2d-46.82869929235076!3d-23.53239855513217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf03d65672808b%3A0x679093db851141df!2sOsasco%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1706325000000!5m2!1spt-BR!2sbr"
+                        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <span class="logo-text-top">SUPORTE <span class="highlight">BRASIL</span></span>
+                <span class="logo-text-bottom">LOCADORA</span>
+                <p>Sua melhor opção em locação de veículos.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Links Rápidos</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#frota">Frota</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Contato</h4>
+                <div class="contact-item">
+                    <i class="fab fa-whatsapp"></i> (11) 99259-4414
+                </div>
+                <div class="contact-item" style="margin-top: 10px;">
+                    <a href="https://www.instagram.com/suportebrasillocadora?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                        target="_blank" style="display: flex; align-items: center; gap: 10px;">
+                        <i class="fab fa-instagram"></i> @suportebrasillocadora
+                    </a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 Suporte Brasil Locadora. Todos os direitos reservados.</p>
+            </div>
+
+            <!-- Floating WhatsApp Button -->
+            <a href="https://wa.me/5511992594414?text=Olá, preciso de ajuda." class="floating-whatsapp" target="_blank"
+                aria-label="Fale conosco no WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
