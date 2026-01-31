@@ -403,7 +403,14 @@ ul {
     background: #ffca2c;
 }
 
+.about-map {
+    height: 500px;
+    width: 100%;
+}
+
 .about-map iframe {
+    height: 100%;
+    width: 100%;
     border-radius: 16px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
@@ -690,17 +697,15 @@ ul {
         align-items: center;
     }
 
-    .nav {
-        display: none;
-        /* simple hide for desktop nav */
-    }
-
     .mobile-menu-btn {
         display: block;
         z-index: 1001;
     }
 
     .nav {
+
+        display: block;
+        /* Ensure it is visible for the slide-in effect */
         position: fixed;
         top: 0;
         right: -100%;
